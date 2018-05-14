@@ -15,8 +15,9 @@ import javax.servlet.http.HttpServletRequest;
 public class IndexController {
     private static final Logger logger = LoggerFactory.getLogger(IndexController.class);
 
-    @RequestMapping(value = "/")
+   @RequestMapping(value = "/")
     public String index() {
+        System.out.println("its here");
         return "index";
     }
 

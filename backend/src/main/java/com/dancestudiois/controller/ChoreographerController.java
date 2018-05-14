@@ -19,11 +19,11 @@ public class ChoreographerController {
    /* @Autowired
     private ChoreographerService choreographerService;*/
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    /* @RequestMapping(value = "/", method = RequestMethod.GET)
     public ModelAndView index(HttpServletRequest request) {
         ModelAndView result = new ModelAndView();
         result.addObject("name", "Darya");
         result.setViewName("index");
         return result;
-    }
+    } */
 }
